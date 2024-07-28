@@ -83,6 +83,17 @@ const person2 = {
 //keep person object exactly but changes name
 const person3 = {...person, name: "Jack"};
 
-const names0 = ["Pedro", "Jack", "Jessica"];
+
 //keeps same but adds Joel
 const names1 = [...names, "Joel"];
+const names0 = ["Pedro", "Jack", "Jessica"];
+//keeps same but adds Joel
+
+names0.map((name) => {
+    console.log(name + "1");
+    return <h1> {name} </h1>; //displays each name as a header react
+})
+
+names.filter((name) => {
+    return name !== "Pedro" //returns names exluding filtered
+})
