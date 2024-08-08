@@ -71,7 +71,7 @@ async function doChores() {
         console.log("You finished all the chores!");
     }
     catch(error) {
-        console.error(error);
+        console.error(error); 
     }
 }
 

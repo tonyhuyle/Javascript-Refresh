@@ -3,6 +3,7 @@
 //                 Difficulty reading.
 //                 Old pattern to handle async functions
 //                 Use Promises + async/await to avoid
+//
 
 
 function walkDog(callback) {
